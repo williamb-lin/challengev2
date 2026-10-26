@@ -1,0 +1,10 @@
+node_modules
+node_modules/
+data/
+.env
+.env.*
+.DS_Store
+
+# internal notes, kept out of the public repo
+RULES.md
+OFFER-EN.md

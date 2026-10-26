@@ -1,0 +1,19 @@
+{
+  "name": "yaru-challengev2",
+  "version": "0.1.0",
+  "private": true,
+  "description": "challenge.yaru.ai V2: English workshop landing page (live online, taught in English). Same Beam checkout backend as start.yaru.ai V2.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemailer": "6.9.16",
+    "pg": "^8.13.1"
+  }
+}

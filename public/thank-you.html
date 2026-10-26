@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- LINE Tag Base Code -->
+<!-- Do Not Modify -->
+<script>
+(function(g,d,o){
+  g._ltq=g._ltq||[];g._lt=g._lt||function(){g._ltq.push(arguments)};
+  var h='https://d.line-scdn.net';
+  var s=d.createElement('script');s.async=1;
+  s.src=o||h+'/n/line_tag/public/release/v1/lt.js';
+  var t=d.getElementsByTagName('script')[0];t.parentNode.insertBefore(s,t);
+    })(window, document);
+_lt('init', {
+  customerType: 'lap',
+  tagId: '34e8f29d-a401-4dcc-b551-e49132bbd5d4'
+});
+_lt('send', 'pv', ['34e8f29d-a401-4dcc-b551-e49132bbd5d4']);
+</script>
+<noscript>
+  <img height="1" width="1" style="display:none"
+       src="https://tr.line.me/tag.gif?c_t=lap&t_id=34e8f29d-a401-4dcc-b551-e49132bbd5d4&e=pv&noscript=1" />
+</noscript>
+<!-- End LINE Tag Base Code -->
+<!-- TikTok Pixel Code Start -->
+<script>
+!function (w, d, t) {
+  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
+var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
+;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+
+
+  ttq.load('DB3I03JC77U04C8M6HN0');
+  ttq.page();
+}(window, document, 'ttq');
+</script>
+<!-- TikTok Pixel Code End -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18496929738"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-18496929738');
+</script>
+<!-- End Google tag -->
+    <!-- Payment confirmation page. Every Stripe Checkout session redirects here (/thank-you?tier=…&order=…).
+         The URL only says which order to look up: what's shown, and whether purchase tracking
+         fires, comes from the server's /api/order-status answer. -->
+    <meta name="robots" content="noindex" />
+    <title>Payment status · Yaru workshop</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <style>
+      @font-face { font-family: "Sukhumvit"; src: url(/fonts/SukhumvitSet-Bold.ttf) format("truetype"); font-weight: 700 900; font-display: swap; }
+      @font-face { font-family: "Sukhumvit"; src: url(/fonts/SukhumvitSet-Text.ttf) format("truetype"); font-weight: 300 699; font-display: swap; }
+      @font-face { font-family: "Sukhumvit"; src: url(/fonts/SukhumvitSet-Thin.ttf) format("truetype"); font-weight: 100 299; font-display: swap; }
+      :root {
+        --background: hsl(42 35% 95%);
+        --foreground: hsl(30 55% 9%);
+        --primary: hsl(351 85% 45%);
+        --primary-foreground: hsl(42 35% 95%);
+        --muted-foreground: hsl(30 35% 35%);
+      }
+      * { box-sizing: border-box; margin: 0; }
+      body { font-family: "Sukhumvit", sans-serif; background: var(--primary); color: var(--foreground); -webkit-font-smoothing: antialiased; }
+      nav { background: var(--background); height: 64px; display: flex; align-items: center; justify-content: space-between; padding: 0 16px; }
+      nav .inner { max-width: 80rem; width: 100%; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
+      nav img { height: 32px; width: auto; display: block; }
+      nav a.home { font-size: 14px; color: var(--primary-foreground); background: var(--primary); padding: 8px 20px; border-radius: 999px; text-decoration: none; }
+      main { padding: 64px 16px 0; }
+      .card { max-width: 640px; margin: 0 auto; background: var(--primary-foreground); border-radius: 12px; padding: 40px; text-align: center; box-shadow: 0 1px 2px rgb(0 0 0 / .06); }
+      .card svg { width: 64px; height: 64px; color: var(--primary); }
+      .card h1 { margin-top: 24px; font-size: 1.5rem; font-weight: 700; line-height: 1.45; }
+      .card p.body { margin-top: 24px; font-size: 1.125rem; line-height: 1.625; color: var(--muted-foreground); }
+      .card p.note { margin-top: 24px; font-size: .875rem; font-weight: 200; color: var(--muted-foreground); }
+      .photo { display: block; width: 100%; height: auto; margin-top: 64px; }
+      .card .icon { display: block; margin: 0 auto; }
+      .card[data-state="checking"] .icon { animation: pulse 1.4s ease-in-out infinite; }
+      @keyframes pulse { 50% { opacity: .35; } }
+      .badge { display: inline-block; margin-top: 16px; padding: 4px 12px; border-radius: 999px; background: var(--foreground); color: var(--primary-foreground); font-size: .8125rem; }
+      .receipt { margin: 24px auto 0; max-width: 420px; text-align: left; border-top: 1px solid hsl(30 20% 85%); }
+      .receipt div { display: flex; justify-content: space-between; gap: 16px; padding: 10px 0; border-bottom: 1px solid hsl(30 20% 85%); font-size: 1rem; }
+      .receipt dt { color: var(--muted-foreground); }
+      .receipt dd { margin: 0; font-weight: 700; text-align: right; }
+      .actions { margin-top: 28px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+      .btn { font: inherit; font-size: 1rem; padding: 12px 24px; border-radius: 999px; border: 0; cursor: pointer; text-decoration: none; background: var(--primary); color: var(--primary-foreground); }
+      .btn.ghost { background: transparent; color: var(--foreground); box-shadow: inset 0 0 0 1px hsl(30 20% 75%); }
+      .btn[disabled] { opacity: .6; cursor: default; }
+      [hidden] { display: none !important; }
+      @media (max-width: 480px) { .card { padding: 32px 24px; } }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="inner">
+        <a href="/"><img src="/assets/Yaru_Red_Logo_Transparent_1758970912554-jkDY3jH4.png" alt="Yaru" /></a>
+        <a class="home" href="/">Back to home</a>
+      </div>
+    </nav>
+    <main>
+      <div class="card" id="card" data-state="checking" aria-live="polite">
+        <svg class="icon" id="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="10" /><path d="M12 6v6l4 2" />
+        </svg>
+        <h1 id="title">Checking your payment</h1>
+        <span class="badge" id="test-badge" hidden>Test order · not counted as a sale</span>
+        <p class="body" id="body">Please wait a moment while we confirm your payment with Stripe.</p>
+        <dl class="receipt" id="receipt" hidden>
+          <div><dt>Order number</dt><dd id="r-order"></dd></div>
+          <div><dt>Package</dt><dd id="r-package"></dd></div>
+          <div><dt>Amount paid</dt><dd id="r-amount"></dd></div>
+        </dl>
+        <p class="note" id="note" hidden></p>
+        <div class="actions">
+          <button class="btn" id="retry" type="button" hidden>Check again</button>
+          <a class="btn ghost" id="restart" href="/#signup" hidden>Back to packages</a>
+        </div>
+        <noscript><p class="note">Please enable JavaScript to check your payment status.</p></noscript>
+      </div>
+    </main>
+    <img class="photo" src="/assets/thank-you-crowd.jpg" alt="A Yaru workshop room full of participants" />
+<script>
+  // Payment status + purchase tracking. Everything shown here comes from /api/order-status:
+  // the URL's order number only says which order to look up and is never proof of payment.
+  (function () {
+    var ORDER_RE = /^5W-[0-9A-F]{10}$/;
+    var order = new URLSearchParams(location.search).get("order") || "";
+    var $ = function (id) { return document.getElementById(id); };
+    var PACKAGE_NAMES = { essential: "Essential package (live online)", vip: "VIP package (live online + pre-game & post-game)", coaching: "1:1 coaching (1 month)" };
+    var PACKAGE_NEXT_STEPS = {
+      vip: "Your VIP pre-game, main workshop and post-game are all live online on Google Meet. Your confirmation email has the dates and times, and we'll email the joining links to the address you signed up with.",
+      essential: "The workshop is live online on Google Meet. Your confirmation email has the date and time. The class is open only to the email you signed up with, and we'll email the joining link.",
+      coaching: "The Yaru team will contact you to schedule your first coaching session."
+    };
+    var ICONS = {
+      clock: '<circle cx="12" cy="12" r="10" /><path d="M12 6v6l4 2" />',
+      check: '<circle cx="12" cy="12" r="10" /><path d="m9 12 2 2 4-4" />',
+      alert: '<circle cx="12" cy="12" r="10" /><path d="M12 8v4" /><path d="M12 16h.01" />'
+    };
+    var NOT_PAID = "If you have already paid, don't pay again. Please check your email receipt from Stripe or contact the Yaru team with your order number.";
+    var STATES = {
+      checking: { icon: "clock", title: "Checking your payment", body: "Please wait a moment while we confirm your payment with Stripe." },
+      pending: { icon: "clock", title: "Waiting for payment confirmation", body: "We haven't received confirmation from Stripe yet. This can take a moment. If you have paid, don't pay again: this page checks automatically, or you can tap Check again.", retry: true },
+      paid: { icon: "check", title: "Payment received. Welcome!", body: "Thank you for signing up for the Yaru workshop.", receipt: true },
+      expired: { icon: "alert", title: "Payment link expired", body: "This order hasn't been paid and its payment link has expired. Please choose a package and start again.", note: NOT_PAID, restart: true },
+      cancelled: { icon: "alert", title: "Order cancelled", body: "This order was cancelled and hasn't been paid. Please choose a package and start again.", note: NOT_PAID, restart: true },
+      refunded: { icon: "alert", title: "This order has been refunded", body: "The payment for this order has been refunded. If you have questions, please contact the Yaru team with your order number.", restart: true },
+      failed: { icon: "alert", title: "Payment didn't go through", body: "We couldn't create a payment for this order and you haven't been charged. Please try again.", restart: true },
+      invalid: { icon: "alert", title: "Order not found", body: "This link doesn't contain a valid order. If you just paid, please check your email receipt from Stripe or contact the Yaru team.", restart: true },
+      unavailable: { icon: "alert", title: "We can't check your payment yet", body: "Our payment check is temporarily unavailable. If you have paid, don't pay again. Please tap Check again in a moment.", retry: true }
+    };
+    STATES.partially_refunded = { icon: "alert", title: "Partial refund accepted by the payment provider", body: "The payment provider has accepted a partial refund. When it reaches your account depends on your bank or provider. If you have questions, please contact the Yaru team with your order number." };
+    STATES.refunded.title = "Full refund accepted by the payment provider";
+    STATES.refunded.body = "The payment provider has accepted a full refund. When it reaches your account depends on your bank or provider. If you have questions, please contact the Yaru team with your order number.";
+    var STATUS_TO_STATE = { pending: "pending", paid: "paid", expired: "expired", cancelled: "cancelled", refunded: "refunded", partially_refunded: "partially_refunded", refund_review: "unavailable", error: "failed" };
+
+    function show(name, o) {
+      var st = STATES[name];
+      $("card").setAttribute("data-state", name);
+      $("icon").innerHTML = ICONS[st.icon];
+      $("title").textContent = st.title;
+      $("body").textContent = st.body;
+      if (name === "paid" && o && PACKAGE_NEXT_STEPS[o.package]) {
+        $("body").textContent += " " + PACKAGE_NEXT_STEPS[o.package];
+      }
+      $("note").hidden = !st.note;
+      $("note").textContent = st.note || "";
+      $("retry").hidden = !st.retry;
+      $("retry").disabled = false;
+      $("restart").hidden = !st.restart;
+      var receipt = Boolean(st.receipt && o);
+      $("receipt").hidden = !receipt;
+      $("test-badge").hidden = !(receipt && o.test === true);
+      if (receipt) {
+        $("r-order").textContent = o.order;
+        $("r-package").textContent = PACKAGE_NAMES[o.package] || o.package || "-";
+        $("r-amount").textContent = typeof o.value === "number" ? "$" + o.value.toLocaleString("en-US", { maximumFractionDigits: 2 }) : "-";
+      }
+    }
+
+    // Purchase measurement: Google Ads Purchase + TikTok CompletePayment, only for a verified,
+    // paid, non-test order with a positive amount in USD and the same order number. Each
+    // platform has its own "sent" marker (per order, shared by refreshes and tabs), set only
+    // after that platform's call went through, so one failing doesn't block the other.
+    // The order number is the ID on both (Google transaction_id, TikTok event_id = the server's).
+    // Skipped if a consent choice exists and says no. Never affects what the buyer sees.
+    var sentThisPage = {};
+    function once(platform, id, send) {
+      var key = "yaru_purchase_" + platform + "_" + id;
+      if (sentThisPage[key]) return;
+      try {
+        if (localStorage.getItem("yaru_purchase_tracked_" + id) || localStorage.getItem(key)) return;
+      } catch (e) {}
+      sentThisPage[key] = true;
+      try {
+        if (send() === false) { sentThisPage[key] = false; return; }
+        try { localStorage.setItem(key, String(Date.now())); } catch (e) {}
+      } catch (e) { sentThisPage[key] = false; }
+    }
+    function trackPurchase(o) {
+      try {
+        if (o && o.status === "paid") {
+          if (o.test) return;
+          if (o.test !== false) return;
+          if (o.track_purchase === false) return;
+          if (window.yaruConsent && window.yaruConsent.ads === false) return;
+          if (typeof o.order !== "string" || o.order !== order || !ORDER_RE.test(o.order)) return;
+          if (typeof o.value !== "number" || !isFinite(o.value) || o.value <= 0) return;
+          if (o.currency !== "USD") return;
+          once("google", o.order, function () {
+            if (typeof gtag !== "function") return false;
+            gtag("event", "conversion", {
+              send_to: "AW-18496929738/GqwmCIbK4pIdEMr_gvRE",
+              value: o.value, currency: "USD", transaction_id: o.order
+            });
+          });
+          once("tiktok", o.order, function () {
+            if (!window.ttq || typeof window.ttq.track !== "function") return false;
+            window.ttq.track("CompletePayment", {
+              contents: [{ content_id: o.package, content_type: "product", quantity: 1 }],
+              value: o.value, currency: "USD"
+            }, { event_id: o.order });
+          });
+        }
+      } catch (e) {}
+    }
+
+    if (!ORDER_RE.test(order)) { show("invalid"); return; }
+
+    var POLL_MS = 5000, MAX_POLLS = 24, MAX_FAILS = 3;
+    var polls = 0, fails = 0, timer = null, busy = false, lastState = "checking", done = false;
+
+    function schedule() { clearTimeout(timer); timer = setTimeout(check, POLL_MS); }
+    function check() {
+      if (busy || done) return;
+      busy = true;
+      fetch("/api/order-status?order=" + encodeURIComponent(order), { cache: "no-store" })
+        .then(function (r) {
+          if (r.status === 400 || r.status === 404) return { invalid: true };
+          if (!r.ok) throw new Error("HTTP " + r.status);
+          return r.json();
+        })
+        .then(function (o) {
+          busy = false;
+          if (o.invalid) { done = true; show("invalid"); return; }
+          if (!o || o.order !== order || !STATUS_TO_STATE[o.status]) throw new Error("unexpected response");
+          fails = 0;
+          var name = STATUS_TO_STATE[o.status];
+          lastState = name;
+          show(name, o);
+          if (name === "paid") { done = true; trackPurchase(o); return; }
+          if (name === "pending" && ++polls < MAX_POLLS) schedule();
+          if (name !== "pending") done = true;
+        })
+        .catch(function () {
+          busy = false;
+          if (++fails >= MAX_FAILS) { show("unavailable"); return; }
+          show(lastState === "pending" ? "pending" : "checking");
+          schedule();
+        });
+    }
+    $("retry").addEventListener("click", function () {
+      if (busy) return;
+      polls = 0; fails = 0; done = false;
+      $("retry").disabled = true;
+      show(lastState === "pending" ? "pending" : "checking");
+      $("retry").disabled = true;
+      clearTimeout(timer);
+      check();
+    });
+    check();
+  })();
+</script>
+    <footer style="padding:24px 16px;text-align:center;font-size:.875rem">
+      <a href="/terms" style="color:var(--primary-foreground);text-underline-offset:3px;white-space:nowrap">Terms of Service</a> ·
+      <a href="/terms-of-use" style="color:var(--primary-foreground);text-underline-offset:3px;white-space:nowrap">Website Terms of Use</a>
+    </footer>
+  </body>
+</html>
